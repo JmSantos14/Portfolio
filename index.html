@@ -6,7 +6,7 @@
   <title>João Santos | Portfolio </title>
   <meta name="description" content="Portfólio da desenvolvedora front-end Elidiana Andrade para compartilhar projetos e habilidades desenvolvidas.">
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="assets/images/Orbly.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link
     rel="stylesheet"
@@ -45,7 +45,7 @@
     </nav>
     <div class="header__brand">
       <a href="#home">
-        <img class="brand__logo" src="assets/images/logo-ea.png" alt="Logo EA">
+        <img class="brand__logo" src="assets/images/Orbly.png" alt="Logo Orbly">
       </a>
     </div>
     <div class="header__toggle">
@@ -97,7 +97,7 @@
           </a>
         </li>
         <li>
-          <a class="menu__link" href="" target="_blank">
+          <a class="menu__link" href="https://www.instagram.com/usantos14/" target="_blank">
             <i class="menu__icon bi bi-instagram"></i>
           </a>
         </li>
@@ -113,18 +113,24 @@
 
   <section class="technologies">
     <h2>Conhecimento nas principais tecnologias do mercado</h2>
-    <ul class="technologies__list">
+    <ul class="my_technologies__list">
       <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/Angular.svg" alt="Logo Angular">
+        <img class="technologies__logo" src="assets/images/technologies/react-native.png" alt="Logo React-Native">
       </li>
       <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/TypeScript.svg" alt="Logo TypeScript">
+        <img class="technologies__logo" src="assets/images/technologies/htmlBlack.png" alt="Logo Html">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo css">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/Js.png" alt="Logo JavaScript">
+      </li>
+      <li class="technologies__item">
+        <img class="technologies__logo" src="assets/images/technologies/TS.png" alt="Logo TypeScript">
       </li>
       <li class="technologies__item">
         <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
-      </li>
-      <li class="technologies__item">
-        <img class="technologies__logo" src="assets/images/technologies/" alt="">
       </li>
     </ul>
   </section>
@@ -134,7 +140,7 @@
     <div class="projects__container">
 
       <div class="projects__card">
-        <img class="card__cover" src="assets/images/projects/josisbox.jpg" alt="Capa Josi's Box">
+        <img class="card__cover" src="assets/images/projects/marketPlace.png" alt="Capa MarketPlace">
         <div class="card__body">
           <h3 class="card__title">MarketPlace</h3>
           <p class="card__description">Aplicativo Ecommerce</p>
@@ -151,10 +157,14 @@
             </li>
           </ul>
           <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Repositório</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
+            <a href="https://github.com/JmSantos14/MarketPlace" class="repos" target="_blank">
+              <button class="btn btn--primary">
+                <span>
+                  Repositório
+                </span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>  
+            </a>
             <!-- <button class="btn">
               <span>Prévia</span>
             </button>   -->
@@ -163,7 +173,7 @@
       </div>
 
       <div class="projects__card card--reverse">
-        <img class="card__cover" src="assets/images/projects/archstil.jpg" alt="Capa Archstil">
+        <img class="card__cover" src="assets/images/projects/pokedex.png" alt="Capa Pokedex">
         <div class="card__body">
           <h3 class="card__title">Pokédex</h3>
           <p class="card__description">Pokédex Estilizada.</p>
@@ -174,29 +184,31 @@
           </ul>
           <ul class="technologies__list">
             <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/html.png" alt="Logo HTML">
+              <img class="technologies__logo" src="assets/images/technologies/htmlBlack.png" alt="Logo HTML">
             </li>
             <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/css.webp" alt="Logo TypeScript">
+              <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo css">
             </li>
             <li class="technologies__item">
-              <img class="technologies__logo" src="assets/images/technologies/Js.png" alt="Logo Bootstrap">
+              <img class="technologies__logo" src="assets/images/technologies/Js.png" alt="Logo JavaScript">
             </li>
           </ul>
           <div class="card__buttons">
-            <button class="btn btn--primary">
+            <a href="https://pokedex-bfqp.onrender.com/" class="repos" target="_blank">
+              <button class="btn btn--primary">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>  
+            </a>
+            <!-- <button class="btn">
               <span>Repositório</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
-            <button class="btn">
-              <span>Prévia</span>
-            </button>  
+            </button>   -->
           </div>
         </div>
       </div>
 
       <div class="projects__card">
-        <img class="card__cover" src="assets/images/projects/hanoi.png" alt="Capa Games Store">
+        <img class="card__cover" src="assets/images/projects/hanoi.png" alt="Ilustracao Jogo de Hanoi">
         <div class="card__body">
           <h3 class="card__title">Torre de Hanoi</h3>
           <p class="card__description">Jogo da Torre de Hanoi no cmd.</p>
@@ -212,17 +224,87 @@
             </li>
           </ul>
           <div class="card__buttons">
-            <button class="btn btn--primary">
-              <span>Repositório</span>
-              <i class="bi bi-arrow-up-right"></i>
-            </button>  
+            <a href="https://github.com/JmSantos14/JogoHanoi.git" class="repos" target="_blank">
+              <button class="btn btn--primary">
+                <span>Repositório</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button> 
+            </a> 
             <!-- <button class="btn">
               <span></span>
             </button>   -->
           </div>
         </div>
       </div>
-      <a href="https://github.com/JmSantos14">
+
+      <div class="projects__card card--reverse">
+        <img class="card__cover" src="assets/images/projects/eniteroi.png" alt="Capa e-niteroi">
+        <div class="card__body">
+          <h3 class="card__title">e-niteroi</h3>
+          <p class="card__description">Tela de Login.</p>
+          <ul class="card__list">
+            <li class="card__item">Acessibilidade;</li>
+            <li class="card__item">Modo Escuro;</li>
+            <li class="card__item">Tela de FAQ.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/htmlBlack.png" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Js.png" alt="Logo JS">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Bootstrap.svg" alt="Logo Bootstrap">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://e.niteroi.rj.gov.br/" class="repos" target="_blank">
+              <button class="btn btn--primary">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button>  
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects__card">
+        <img class="card__cover" src="assets/images/projects/orbly.png" alt="Capa OrblyCode">
+        <div class="card__body">
+          <h3 class="card__title">OrblyCode</h3>
+          <p class="card__description">Startup.</p>
+          <ul class="card__list">
+            <li class="card__item">Animação com Canvas;</li>
+            <li class="card__item">Carrosel;</li>
+            <li class="card__item">Função de E-mail Automático.</li>
+          </ul>
+          <ul class="technologies__list">
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/htmlBlack.png" alt="Logo HTML">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/css.png" alt="Logo css">
+            </li>
+            <li class="technologies__item">
+              <img class="technologies__logo" src="assets/images/technologies/Js.png" alt="Logo JS">
+            </li>
+          </ul>
+          <div class="card__buttons">
+            <a href="https://orblycode.com.br/" class="repos" target="_blank">
+              <button class="btn btn--primary">
+                <span>Prévia</span>
+                <i class="bi bi-arrow-up-right"></i>
+              </button> 
+            </a> 
+          </div>
+        </div>
+      </div>
+
+      <a href="https://github.com/JmSantos14" target="_blank">
         <button class="btn btn--primary">
           <span>Ver Todos os Projetos</span>
           <i class="bi bi-arrow-up-right"></i>
@@ -233,7 +315,7 @@
 
   <section id="sobre" class="about">
     <div class="about__content1">
-      <img class="about__photo" src="assets/images/" alt="">
+      <img class="about__photo" src="assets/images/perfil.jpg" alt="foto de perfil">
       <div class="about__description">
         <h2>Sobre mim</h2>
         <p>João Marcello. Entusiasta da tecnologia desde cedo, dei meus primeiros passos na programação explorando HTML, CSS e JavaScript. Atualmente, me especializo em Desenvolvimento de Software com foco em Metodologias Ágeis, conciliando projetos como desenvolvedor freelance e iniciativas próprias, como a criação da <a href="https://orblycode.com.br" target="_blank" class="linkOrbly">Orbly Code</a>, onde transformamos ideias em soluções digitais.
@@ -249,7 +331,7 @@
               <i class="bi bi-arrow-up-right"></i>
             </button> 
           </a>
-          <a href="">
+          <a href="./assets/pdf/curriculo.pdf" target="_blank">
             <button class="btn">
               <span>Currículo</span>
             </button>
@@ -262,7 +344,7 @@
         <div class="row1">
           <h3>Formação</h3>
           <h4>Ciência da Computação</h4>
-          <span>Abr 2023 - Atualmente</span>
+          <span>Abr 2022 - Atualmente</span>
           <div class="about__icons">
             <i class="bi bi-bank"></i>
             <span>Universidade Anhanguera</span>
@@ -294,13 +376,11 @@
             </button>
             <div class="accordion__body">
               <p>
-                Udemy. Nov 2024. ?h.
+                Udemy. Nov 2024. 24h.
               </p>
               <p>
-                O que é versionamento de código, Git e GitHub. Como instalar e configurar o Git em diferentes sistemas 
-                operacionais e como autenticar via Token e SSH. Como manusear repositórios, indo desde a criação e clonagem 
-                até o gerenciamento de branches, passando por todas as etapas de salvar, desfazer e sincronizar alterações 
-                com o repositório remoto. 
+                Domine o React Native do Zero ao Avançado com Projetos Práticos
+                Aprenda a desenvolver aplicativos móveis completos utilizando React Native, desde os fundamentos até técnicas avançadas. Neste curso, você irá construir projetos reais do zero, adquirindo experiência prática e sólida para o mercado de trabalho.
               </p>
             </div>
           </div>
@@ -311,10 +391,11 @@
             </button>
             <div class="accordion__body">
               <p>
-                Udemy. Mai 2025. ?h.
+                Udemy. Mai 2025. 8h.
               </p>
               <p>
-                Lab prático sobre colaboração em projetos de código aberto.
+                Aprenda JAVASCRIPT em 7 dias + Projetos Reais
+                Curso de Programação JavaScript. Aprenda do ZERO com 7 Projetos do Mundo Real
               </p>
             </div>
           </div>
@@ -355,7 +436,7 @@
         </a>
       </li>
       <li>
-        <a class="menu__link" href="" target="_blank">
+        <a class="menu__link" href="https://www.instagram.com/usantos14/" target="_blank">
           <i class="menu__icon bi bi-instagram"></i>
           <span>Instagram</span>
         </a>

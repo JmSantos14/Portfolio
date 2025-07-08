@@ -29,9 +29,7 @@
 	--icon-color: #56575A;
 }
 
-html[data-theme='light'] .brand__logo {
-  filter: invert(1);
-}
+
 
 html[data-theme='light'] .technologies__logo {
   filter: invert(80%);
@@ -283,6 +281,13 @@ main {
   text-align: start;
 }
 
+.my_technologies__list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: .5rem;
+  width: 30%;
+}
+
 .technologies__list {
   display: flex;
   flex-flow: row wrap;
@@ -399,11 +404,11 @@ main {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .about__photo {
-  width: 100%;
+  width: 80%;
   object-fit: cover;
   object-position: center;
   pointer-events: none;
