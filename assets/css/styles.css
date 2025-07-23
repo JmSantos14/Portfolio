@@ -351,7 +351,7 @@ main {
 
 .card__cover {
   width: 55%;
-  height: 23rem;
+  max-height: 30rem;
   border-radius: 0.5rem;
   object-fit: fill;
   object-position: center;
@@ -442,10 +442,11 @@ main {
 
 .about__photo {
   width: 80%;
+  height: 80%;
   object-fit: cover;
   object-position: center;
   pointer-events: none;
-  border-radius: 50rem;
+  border-radius: 50%;
   border: 1px solid var(--primary-border-color);
 }
 
@@ -702,6 +703,10 @@ a.linkOrbly{
   .technologies__item {
     width: 6rem;
     height: 6rem;
+    transition: .4s ease;
+  }
+  .technologies__item:hover {
+    transform: translateY(-5px);
   }
   
   .technologies__logo {
