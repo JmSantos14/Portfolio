@@ -32,7 +32,7 @@
 
 
 html[data-theme='light'] .technologies__logo {
-  filter: invert(80%);
+  filter: invert(10%);
 }
 
 * {
